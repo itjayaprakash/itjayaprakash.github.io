@@ -1,0 +1,15 @@
+
+@import "style.css";
+
+body{
+	padding-top: 80px;
+}
+
+.item{
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+img{
+	margin-bottom: 30px;
+}
