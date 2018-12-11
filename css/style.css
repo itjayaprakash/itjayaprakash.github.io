@@ -165,7 +165,7 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 99;
+  z-index: 999;
 }
 .navbar-default .navbar-nav > li > a {
   margin: 0 !important;
@@ -2516,3 +2516,19 @@ form .error {
 	font-weight:400;
 }
 /* isotope */
+
+#round {
+    position: absolute;
+    top: 80;
+    left: 0;
+	right:0px;
+	bottom:0px;
+	z-index:600;
+}
+canvas.sketch {
+	width:100% !important;
+	height: 100% !important;
+}
+.about-timeline-style {
+	position:relative;
+}
