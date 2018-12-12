@@ -213,7 +213,7 @@ p {
   letter-spacing: 4px;
   color: #fff;
   float: left;
-  padding-top: 15px;
+  padding-top: 10px;
   text-transform: uppercase;
 }
 .logo span {
@@ -1255,7 +1255,7 @@ p {
     margin-left: 20px;
   }
   .navbar-default .navbar-toggle {
-    background: none !important;
+    background: rgba(214, 177, 97, 0.7215686274509804) !important;
     margin-top: 15px !important;
     border: none !important;
   }
@@ -1280,7 +1280,7 @@ p {
   }
 
   .nav-scroll .navbar-toggle .icon-bar {
-    background: #111;
+    background: #fff;
   }
 
   .resume .tabs-icon li {
@@ -2522,7 +2522,7 @@ form .error {
     top: 0;
     left: 0;
 	right:0px;
-	bottom:0px;
+	bottom:20px;
 	z-index:600;
 }
 canvas.sketch {
@@ -2531,4 +2531,71 @@ canvas.sketch {
 }
 .about-timeline-style {
 	position:relative;
+}
+
+
+.mouse {
+	height: 42px;
+	width: 24px;
+	-moz-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	border-radius: 14px;
+	transform: none;
+	display: inline-block;
+	border: 2px solid white;
+	position: absolute;
+	bottom: 10px;
+	margin: auto;
+	cursor: pointer;
+	z-index: 999;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 15px;
+}
+
+.wheel {
+  height: 8px;
+  width: 4px;
+  display: block;
+  margin: 5px auto;
+  background: white;
+  position: relative;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  -moz-animation: mouse-wheel 1s linear infinite;
+  -webkit-animation: mouse-wheel 1s linear infinite;
+  animation: mouse-wheel 1s linear infinite;
+}
+
+@-moz-keyframes mouse-wheel {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+@-webkit-keyframes mouse-wheel {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+@keyframes mouse-wheel {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
 }
