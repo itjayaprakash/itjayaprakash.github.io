@@ -1260,7 +1260,7 @@ p {
     border: none !important;
   }
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background: transparent !important;
+   /* background: transparent !important;*/
   }
   .navbar-default .navbar-toggle .icon-bar {
     background: #fff;
@@ -2551,7 +2551,7 @@ canvas.sketch {
 	position: absolute;
 	left: 0px;
 	right: 0px;
-	bottom: 15px;
+	bottom: 50px;
 }
 
 .wheel {
