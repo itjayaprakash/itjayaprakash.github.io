@@ -1,6 +1,6 @@
 {
   "short_name": "JP Resume",
-  "name": "Welcome to view my resume",
+  "name": "Welcome to view my Resume",
   "icons": [
     {
       "src": "img/favicon.png",
@@ -11,5 +11,5 @@
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#293b4e",
-  "background_color": "#293b4e"
+  "background_color": "#000"
 }
