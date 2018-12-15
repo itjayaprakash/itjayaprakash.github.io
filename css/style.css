@@ -2528,6 +2528,7 @@ form .error {
 canvas.sketch {
 	width:100% !important;
 	height: 100% !important;
+	display:none;
 }
 .about-timeline-style {
 	position:relative;
