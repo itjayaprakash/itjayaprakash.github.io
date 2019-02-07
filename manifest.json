@@ -2,7 +2,7 @@
   "short_name": "JP Resume",
   "name": "Welcome to view my Resume",
   "icons": [{
-    "src": "imag/icon-128x128.png",
+    "src": "img/icon-128x128.png",
       "sizes": "128x128",
       "type": "image/png"
     }, {
@@ -10,15 +10,15 @@
       "sizes": "144x144",
       "type": "image/png"
     }, {
-      "src": "images/icon-152x152.png",
+      "src": "img/icon-152x152.png",
       "sizes": "152x152",
       "type": "image/png"
     }, {
-      "src": "images/icon-192x192.png",
+      "src": "img/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     }, {
-      "src": "images/icon-256x256.png",
+      "src": "img/icon-256x256.png",
       "sizes": "256x256",
       "type": "image/png"
     }],
